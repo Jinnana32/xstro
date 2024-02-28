@@ -1,0 +1,15 @@
+{
+  "name": "xstro",
+  "version": "1.0.0",
+  "description": "Crypto platform for analyzing latest trends and information of various crypto projects in one space",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "./app/*"
+  ]
+}
