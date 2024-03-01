@@ -4,12 +4,14 @@
   "description": "Crypto platform for analyzing latest trends and information of various crypto projects in one space",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:client": "yarn workspace @xstro/client dev"
   },
   "author": "",
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "./app/*"
+    "./app/*",
+    "./packages/*"
   ]
 }
